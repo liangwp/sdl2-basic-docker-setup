@@ -1,0 +1,6 @@
+services:
+  compiler:
+    build: .
+    volumes:
+      - ./:/workspace/
+    command: ./build.sh
